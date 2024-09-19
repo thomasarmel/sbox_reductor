@@ -1,0 +1,11 @@
+[package]
+name = "sbox_reductor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+boolean_function = {git = "https://github.com/thomasarmel/boolean_function.git"}
+itertools = "0.13.0"
+rayon = "1.10.0"
+rand = "0.8.5"
+num-bigint = "0.4.6"
